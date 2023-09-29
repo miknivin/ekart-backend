@@ -2,7 +2,7 @@
 
 //1. import product collection
 
-const products = require('../models/productschema').products;
+const products = require('../models/productschema');
 
 exports.getAllProducts = async (req, res) => {
     try {
