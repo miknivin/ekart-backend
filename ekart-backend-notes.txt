@@ -1,0 +1,24 @@
+                                                    Backend for EKart
+                                        
+                                    1. Create a new folder in the E-cart (ekart-backend)
+                                    2. create package.json file - npm init or npm init -y
+                                    3. install express and some other modules
+                                    --------npm i express, cors, mongoose, dotenv
+                                    --------CORS - Used to connect two different ports (frontend -4200 and backend -5000)
+                                    --------mongoose - library used to connect node and mongodb
+                                    --------dotenv -  This is an environment variable, that are used to store app secrets and configuration
+                                    4. create gitignore file and .envfile
+                                    5. Create index.js
+                                                   '
+                                                   MONGO DB ATLAS CONFIGURATION
+
+                                    6. Add connection string to .envfile
+                                       mongodb+srv://NIVIN:<9qJSGg4JeTh3vWso>@cluster0.wdtxlhm.mongodb.net/products?retryWrites=true&w=majority
+                                    7. Create a connection.js file for connect between node and mongodb
+                                    8. Implement mvc
+                                    ----create a folder called models inside in it add file productSchema(go to the file)
+                                    9. Create routes folder - //to define routes for client request
+                                    10.create a file router.js
+                                    11.Import connection.js in index.js
+                                    12.Create Model/collection to store products - model/productsschema.js and export it
+                                    13.to define 
